@@ -20,7 +20,7 @@ end
 
 def my_hash_creator(key, value)
 hash = {  }
-hash[key]
+hash[key] = key
 return hash
 end
 
